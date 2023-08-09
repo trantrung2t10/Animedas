@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 66px;
+    background-color: #000;
+    color: #fff;
+}
