@@ -114,9 +114,153 @@
     border-radius: 0.5rem;
 }
 
+/* css container */
+
 .container{
-    min-height: 500PX;
+    padding: 2rem;
+    margin: 0 5rem;
+    font-size: 1.6rem;
 }
+
+.content__wapper{
+    padding:  1.8rem;
+    background-color: var(--background-color-child);
+    border-radius: 0.5rem;
+}
+
+/* CSS thông báo */
+.content__wapper .announcement{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #2d2d2d;
+    color: var(--white-color);
+
+}
+
+/*  css icon thông báo*/
+.announcement .announ__title i{
+    font-size: 2.2rem;
+    background-color: var(--background-color-child);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+}
+/* Css text thông báo */
+.announ__text .announ__text-list{
+    padding-left: 4rem;
+    margin-bottom: 1.6rem;
+}
+
+.announ__text .announ__text-list .announ__text-item{
+    font-size: 2.2rem;
+    margin-bottom: 1.6rem;
+    color: #f3dd3d;
+}
+
+.announ__text-list .announ__text-item .announ__text-link{
+    color: #e62117;
+    text-decoration: none;
+}
+
+.announ__text-list .announ__text-item .announ__text-link:hover{
+    color: #28a745;
+}
+
+/* CSS anime đề cử */
+.nominate-movie{
+    margin-bottom: 1.6rem;
+}
+
+.nominate-movie .nominate-pr{
+    padding: 0 1rem;
+}
+
+
+.nominate-link .nominate-img
+, .nominate-cd
+, .nominate-pr{
+    display: inline-block;
+}
+
+.nominate-link .nominate-img{
+    position: relative;
+}
+
+.nominate-link .nominate-exp
+, .nominate-eps
+, .nominate-title{
+    position: absolute;
+}
+
+/* css đánh giá */
+.nominate-link .nominate-eps{
+    top: 0.5rem;
+    left: 0;
+    padding: 0.7rem 1.2rem;
+    margin: 0 0 0.7rem 0.7rem;
+    background-color: rgba(0,0,0,.65);
+    border-radius: 2rem;
+    transition: opacity .15s linear;
+    color: #f3dd3d;
+}
+
+/* css số tập */
+.nominate-link .nominate-exp{
+    top: 0.5rem;
+    right: 0;
+    padding: 0.7rem 1.2rem;
+    margin: 0 0.7rem 0.7rem 0;
+    background-color: rgba(183,28,28,.9);
+    border-radius: 0.4rem;
+    text-shadow: 0 0 2px rgba(0,0,0,.3);
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+/* css tên anime  */
+.nominate-link .nominate-title{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: none;
+    padding: 5rem 1rem 1rem;
+    border-radius: 0 0 1rem 1rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    pointer-events: none;
+    color: var(--white-color);
+    text-align: center;
+    font-weight: 400;
+}
+.nominate-link .nominate-img img{
+    width: 18rem;
+    height: 25rem;
+}
+
+/* Css main__wrapper */
+
+.main__wrapper{
+    display: flex;
+    justify-content: space-between;
+    color: var(--white-color);
+}
+main {
+    flex: 2;
+    padding-right: 20px;
+    border: 1px solid #fff;
+    
+}
+
+aside{
+    flex: 1;
+    border: 1px solid #fff;
+
+}
+
+
 /* CSS footer */
 .footer {
     padding: 0 2rem;
@@ -164,6 +308,9 @@
     color: #0f1416;
 }
 
+.social .social-list-item:hover .social-list-link{
+    color: #fff;
+}
 
 /* footer desc */
 .footer__Desc {
